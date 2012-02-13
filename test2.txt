@@ -1,2 +1,3 @@
 This is a second test file
 Second line added
+added line
