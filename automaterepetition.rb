@@ -10,8 +10,11 @@ def music_release_dates(artist, song, year)
   puts "%s released %s on %d" % [artist, song, year]
 end
 
-artists.length.times do |x|
+3.times do |x|
   music_release_dates(artists[x], songs[x], years[x])
 end
 
+artists.length.times do |x|
+  music_release_dates(artists[x], songs[x], years[x])
+end
   
