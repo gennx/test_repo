@@ -7,14 +7,10 @@ def prompt(message="Input")
 end
 
 
-text = prompt("enter your name: ")
+#text = prompt("enter your name: ")
 
-puts "This is the text that you entered: %s." % text
+#puts "This is the text that you entered: %s." % text
 
-text = prompt()
+#text = prompt()
 
-puts "This is done with default prompt: %s." % text
-
-text = prompt()
-
-puts "Year of publication: %s." % text
+#puts "This is done with default prompt: %s." % text
