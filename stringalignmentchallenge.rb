@@ -14,11 +14,15 @@ In ornare lacus ut turpis."
 
 
 column_width = original_string.split("\n").length.to_s.length
-x = 1
-original_string.each_line("\n") do |sentence|
-  #puts sentence
-  #sleep 0.3
-  puts "Line %0#{column_width}d: %s" % [x, sentence]
-  x = x + 1
-end
+#x = 1
+#original_string.each_line("\n") do |sentence|
+  #puts "Line %0#{column_width}d: %s" % [x, sentence]
+  #x = x + 1
+#end
 
+
+original_string.lines.each_with_index do |sentence, index|
+  puts "Line %0#{column_width}d: %s" % [index, sentence]
+
+  
+end
